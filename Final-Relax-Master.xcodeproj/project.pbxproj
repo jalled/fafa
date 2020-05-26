@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045CF1EF247C35E8004FFA5F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045CF1EE247C35E8004FFA5F /* LoginViewController.swift */; };
+		045CF1F1247C35F9004FFA5F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045CF1F0247C35F9004FFA5F /* SignUpViewController.swift */; };
+		048EBBC5247AB68A000911DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048EBBC4247AB68A000911DC /* AppDelegate.swift */; };
+		048EBBC7247AB68A000911DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048EBBC6247AB68A000911DC /* SceneDelegate.swift */; };
+		048EBBC9247AB68A000911DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048EBBC8247AB68A000911DC /* ViewController.swift */; };
+		048EBBCC247AB68A000911DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048EBBCA247AB68A000911DC /* Main.storyboard */; };
+		048EBBCF247AB68A000911DC /* Final_Relax_Master.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 048EBBCD247AB68A000911DC /* Final_Relax_Master.xcdatamodeld */; };
+		048EBBD1247AB68C000911DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048EBBD0247AB68C000911DC /* Assets.xcassets */; };
+		048EBBD4247AB68C000911DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048EBBD2247AB68C000911DC /* LaunchScreen.storyboard */; };
+		048EBBDF247AB68C000911DC /* Final_Relax_MasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048EBBDE247AB68C000911DC /* Final_Relax_MasterTests.swift */; };
+		048EBBEA247AB68C000911DC /* Final_Relax_MasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048EBBE9247AB68C000911DC /* Final_Relax_MasterUITests.swift */; };
+		04C1304D247AC17100FC007E /* Connexion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C1304C247AC17100FC007E /* Connexion.swift */; };
+		04C1304F247AC1CB00FC007E /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C1304E247AC1CB00FC007E /* LoginService.swift */; };
+		04C13052247AE01C00FC007E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C13051247AE01C00FC007E /* User.swift */; };
+		83A953B2902717E985CEA2F6 /* Pods_Final_Relax_Master.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014B97AB071269125D8A53D7 /* Pods_Final_Relax_Master.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		048EBBDB247AB68C000911DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048EBBB9247AB68A000911DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048EBBC0247AB68A000911DC;
+			remoteInfo = "Final-Relax-Master";
+		};
+		048EBBE6247AB68C000911DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048EBBB9247AB68A000911DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048EBBC0247AB68A000911DC;
+			remoteInfo = "Final-Relax-Master";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014B97AB071269125D8A53D7 /* Pods_Final_Relax_Master.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Final_Relax_Master.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		045CF1EE247C35E8004FFA5F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		045CF1F0247C35F9004FFA5F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		048EBBC1247AB68A000911DC /* Final-Relax-Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final-Relax-Master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048EBBC4247AB68A000911DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		048EBBC6247AB68A000911DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		048EBBC8247AB68A000911DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		048EBBCB247AB68A000911DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		048EBBCE247AB68A000911DC /* Final_Relax_Master.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Final_Relax_Master.xcdatamodel; sourceTree = "<group>"; };
+		048EBBD0247AB68C000911DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048EBBD3247AB68C000911DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		048EBBD5247AB68C000911DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048EBBDA247AB68C000911DC /* Final-Relax-MasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final-Relax-MasterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048EBBDE247AB68C000911DC /* Final_Relax_MasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Relax_MasterTests.swift; sourceTree = "<group>"; };
+		048EBBE0247AB68C000911DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048EBBE5247AB68C000911DC /* Final-Relax-MasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final-Relax-MasterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048EBBE9247AB68C000911DC /* Final_Relax_MasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Relax_MasterUITests.swift; sourceTree = "<group>"; };
+		048EBBEB247AB68C000911DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C1304C247AC17100FC007E /* Connexion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connexion.swift; sourceTree = "<group>"; };
+		04C1304E247AC1CB00FC007E /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		04C13051247AE01C00FC007E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BFB0DA0C09D86091CC2776C0 /* Pods-Final-Relax-Master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final-Relax-Master.debug.xcconfig"; path = "Target Support Files/Pods-Final-Relax-Master/Pods-Final-Relax-Master.debug.xcconfig"; sourceTree = "<group>"; };
+		D535911800FDF76E3D2AEB0F /* Pods-Final-Relax-Master.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final-Relax-Master.release.xcconfig"; path = "Target Support Files/Pods-Final-Relax-Master/Pods-Final-Relax-Master.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048EBBBE247AB68A000911DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A953B2902717E985CEA2F6 /* Pods_Final_Relax_Master.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048EBBD7247AB68C000911DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048EBBE2247AB68C000911DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045CF1ED247C35C5004FFA5F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				048EBBC8247AB68A000911DC /* ViewController.swift */,
+				045CF1EE247C35E8004FFA5F /* LoginViewController.swift */,
+				045CF1F0247C35F9004FFA5F /* SignUpViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		048EBBB8247AB68A000911DC = {
+			isa = PBXGroup;
+			children = (
+				048EBBC3247AB68A000911DC /* Final-Relax-Master */,
+				048EBBDD247AB68C000911DC /* Final-Relax-MasterTests */,
+				048EBBE8247AB68C000911DC /* Final-Relax-MasterUITests */,
+				048EBBC2247AB68A000911DC /* Products */,
+				3E4F68787F1E55E1B267F9D9 /* Pods */,
+				E44091A4B4243D23E093907B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		048EBBC2247AB68A000911DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048EBBC1247AB68A000911DC /* Final-Relax-Master.app */,
+				048EBBDA247AB68C000911DC /* Final-Relax-MasterTests.xctest */,
+				048EBBE5247AB68C000911DC /* Final-Relax-MasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048EBBC3247AB68A000911DC /* Final-Relax-Master */ = {
+			isa = PBXGroup;
+			children = (
+				045CF1ED247C35C5004FFA5F /* ViewControllers */,
+				04C13050247ADFE500FC007E /* Models */,
+				04C13049247AC12E00FC007E /* Services */,
+				048EBBC4247AB68A000911DC /* AppDelegate.swift */,
+				048EBBC6247AB68A000911DC /* SceneDelegate.swift */,
+				048EBBCA247AB68A000911DC /* Main.storyboard */,
+				048EBBD0247AB68C000911DC /* Assets.xcassets */,
+				048EBBD2247AB68C000911DC /* LaunchScreen.storyboard */,
+				048EBBD5247AB68C000911DC /* Info.plist */,
+				048EBBCD247AB68A000911DC /* Final_Relax_Master.xcdatamodeld */,
+			);
+			path = "Final-Relax-Master";
+			sourceTree = "<group>";
+		};
+		048EBBDD247AB68C000911DC /* Final-Relax-MasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				048EBBDE247AB68C000911DC /* Final_Relax_MasterTests.swift */,
+				048EBBE0247AB68C000911DC /* Info.plist */,
+			);
+			path = "Final-Relax-MasterTests";
+			sourceTree = "<group>";
+		};
+		048EBBE8247AB68C000911DC /* Final-Relax-MasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				048EBBE9247AB68C000911DC /* Final_Relax_MasterUITests.swift */,
+				048EBBEB247AB68C000911DC /* Info.plist */,
+			);
+			path = "Final-Relax-MasterUITests";
+			sourceTree = "<group>";
+		};
+		04C13049247AC12E00FC007E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				04C1304C247AC17100FC007E /* Connexion.swift */,
+				04C1304E247AC1CB00FC007E /* LoginService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		04C13050247ADFE500FC007E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04C13051247AE01C00FC007E /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3E4F68787F1E55E1B267F9D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFB0DA0C09D86091CC2776C0 /* Pods-Final-Relax-Master.debug.xcconfig */,
+				D535911800FDF76E3D2AEB0F /* Pods-Final-Relax-Master.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E44091A4B4243D23E093907B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				014B97AB071269125D8A53D7 /* Pods_Final_Relax_Master.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048EBBC0247AB68A000911DC /* Final-Relax-Master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048EBBEE247AB68C000911DC /* Build configuration list for PBXNativeTarget "Final-Relax-Master" */;
+			buildPhases = (
+				AB2991F0A579CCA228B033A3 /* [CP] Check Pods Manifest.lock */,
+				048EBBBD247AB68A000911DC /* Sources */,
+				048EBBBE247AB68A000911DC /* Frameworks */,
+				048EBBBF247AB68A000911DC /* Resources */,
+				D565445FB280FE702995FE59 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Final-Relax-Master";
+			productName = "Final-Relax-Master";
+			productReference = 048EBBC1247AB68A000911DC /* Final-Relax-Master.app */;
+			productType = "com.apple.product-type.application";
+		};
+		048EBBD9247AB68C000911DC /* Final-Relax-MasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048EBBF1247AB68C000911DC /* Build configuration list for PBXNativeTarget "Final-Relax-MasterTests" */;
+			buildPhases = (
+				048EBBD6247AB68C000911DC /* Sources */,
+				048EBBD7247AB68C000911DC /* Frameworks */,
+				048EBBD8247AB68C000911DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048EBBDC247AB68C000911DC /* PBXTargetDependency */,
+			);
+			name = "Final-Relax-MasterTests";
+			productName = "Final-Relax-MasterTests";
+			productReference = 048EBBDA247AB68C000911DC /* Final-Relax-MasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		048EBBE4247AB68C000911DC /* Final-Relax-MasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048EBBF4247AB68C000911DC /* Build configuration list for PBXNativeTarget "Final-Relax-MasterUITests" */;
+			buildPhases = (
+				048EBBE1247AB68C000911DC /* Sources */,
+				048EBBE2247AB68C000911DC /* Frameworks */,
+				048EBBE3247AB68C000911DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048EBBE7247AB68C000911DC /* PBXTargetDependency */,
+			);
+			name = "Final-Relax-MasterUITests";
+			productName = "Final-Relax-MasterUITests";
+			productReference = 048EBBE5247AB68C000911DC /* Final-Relax-MasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048EBBB9247AB68A000911DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					048EBBC0247AB68A000911DC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					048EBBD9247AB68C000911DC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 048EBBC0247AB68A000911DC;
+					};
+					048EBBE4247AB68C000911DC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 048EBBC0247AB68A000911DC;
+					};
+				};
+			};
+			buildConfigurationList = 048EBBBC247AB68A000911DC /* Build configuration list for PBXProject "Final-Relax-Master" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048EBBB8247AB68A000911DC;
+			productRefGroup = 048EBBC2247AB68A000911DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048EBBC0247AB68A000911DC /* Final-Relax-Master */,
+				048EBBD9247AB68C000911DC /* Final-Relax-MasterTests */,
+				048EBBE4247AB68C000911DC /* Final-Relax-MasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048EBBBF247AB68A000911DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048EBBD4247AB68C000911DC /* LaunchScreen.storyboard in Resources */,
+				048EBBD1247AB68C000911DC /* Assets.xcassets in Resources */,
+				048EBBCC247AB68A000911DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048EBBD8247AB68C000911DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048EBBE3247AB68C000911DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB2991F0A579CCA228B033A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Final-Relax-Master-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D565445FB280FE702995FE59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Final-Relax-Master/Pods-Final-Relax-Master-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Final-Relax-Master/Pods-Final-Relax-Master-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Final-Relax-Master/Pods-Final-Relax-Master-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048EBBBD247AB68A000911DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048EBBC9247AB68A000911DC /* ViewController.swift in Sources */,
+				04C1304F247AC1CB00FC007E /* LoginService.swift in Sources */,
+				048EBBC5247AB68A000911DC /* AppDelegate.swift in Sources */,
+				04C1304D247AC17100FC007E /* Connexion.swift in Sources */,
+				045CF1EF247C35E8004FFA5F /* LoginViewController.swift in Sources */,
+				048EBBC7247AB68A000911DC /* SceneDelegate.swift in Sources */,
+				045CF1F1247C35F9004FFA5F /* SignUpViewController.swift in Sources */,
+				048EBBCF247AB68A000911DC /* Final_Relax_Master.xcdatamodeld in Sources */,
+				04C13052247AE01C00FC007E /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048EBBD6247AB68C000911DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048EBBDF247AB68C000911DC /* Final_Relax_MasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048EBBE1247AB68C000911DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048EBBEA247AB68C000911DC /* Final_Relax_MasterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		048EBBDC247AB68C000911DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048EBBC0247AB68A000911DC /* Final-Relax-Master */;
+			targetProxy = 048EBBDB247AB68C000911DC /* PBXContainerItemProxy */;
+		};
+		048EBBE7247AB68C000911DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048EBBC0247AB68A000911DC /* Final-Relax-Master */;
+			targetProxy = 048EBBE6247AB68C000911DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		048EBBCA247AB68A000911DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048EBBCB247AB68A000911DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		048EBBD2247AB68C000911DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048EBBD3247AB68C000911DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048EBBEC247AB68C000911DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		048EBBED247AB68C000911DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048EBBEF247AB68C000911DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFB0DA0C09D86091CC2776C0 /* Pods-Final-Relax-Master.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final-Relax-Master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mac.Final-Relax-Master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		048EBBF0247AB68C000911DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D535911800FDF76E3D2AEB0F /* Pods-Final-Relax-Master.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final-Relax-Master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mac.Final-Relax-Master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		048EBBF2247AB68C000911DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final-Relax-MasterTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mac.Final-Relax-MasterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Final-Relax-Master.app/Final-Relax-Master";
+			};
+			name = Debug;
+		};
+		048EBBF3247AB68C000911DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final-Relax-MasterTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mac.Final-Relax-MasterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Final-Relax-Master.app/Final-Relax-Master";
+			};
+			name = Release;
+		};
+		048EBBF5247AB68C000911DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final-Relax-MasterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mac.Final-Relax-MasterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Final-Relax-Master";
+			};
+			name = Debug;
+		};
+		048EBBF6247AB68C000911DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final-Relax-MasterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mac.Final-Relax-MasterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Final-Relax-Master";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048EBBBC247AB68A000911DC /* Build configuration list for PBXProject "Final-Relax-Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048EBBEC247AB68C000911DC /* Debug */,
+				048EBBED247AB68C000911DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048EBBEE247AB68C000911DC /* Build configuration list for PBXNativeTarget "Final-Relax-Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048EBBEF247AB68C000911DC /* Debug */,
+				048EBBF0247AB68C000911DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048EBBF1247AB68C000911DC /* Build configuration list for PBXNativeTarget "Final-Relax-MasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048EBBF2247AB68C000911DC /* Debug */,
+				048EBBF3247AB68C000911DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048EBBF4247AB68C000911DC /* Build configuration list for PBXNativeTarget "Final-Relax-MasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048EBBF5247AB68C000911DC /* Debug */,
+				048EBBF6247AB68C000911DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		048EBBCD247AB68A000911DC /* Final_Relax_Master.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				048EBBCE247AB68A000911DC /* Final_Relax_Master.xcdatamodel */,
+			);
+			currentVersion = 048EBBCE247AB68A000911DC /* Final_Relax_Master.xcdatamodel */;
+			path = Final_Relax_Master.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 048EBBB9247AB68A000911DC /* Project object */;
+}
